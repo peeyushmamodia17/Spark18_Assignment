@@ -1,0 +1,106 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* my css */
+.nav{
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo{
+  margin-left: 80px;
+  color: blue;
+}
+
+.navdetail{
+  margin-left: 500px;
+}
+#detail{
+  padding: 5px 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.container{
+  height: 607.2px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.list{
+  margin-left: 300px;
+  margin-top: 50px;
+  background-color: white;
+  height: 500px;
+  padding-right: 60px;
+  padding-left: 20px;
+  margin-right: 20px;
+  overflow: scroll;
+}
+
+.detail{
+  margin-left: 80px;
+  margin-top: 50px;
+  background-color: white;
+  height: 500px;
+  padding-right: 60px;
+  padding-left: 20px;
+  margin-right: 20px;
+  overflow: scroll;
+  width: 250px;
+}
+
+.detail-value{
+  margin-top: 20px;
+}
+
+#search{
+  padding: 10px 50px 10px 10px;
+  background-color: lightgray;
+}
+
+#check{
+  width: 15px;
+  height: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
